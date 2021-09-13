@@ -1,0 +1,23 @@
+/* variables*/
+$negro: black;
+$amarillo: yellow;
+$white: whitesmoke;
+$azul:#285885;
+
+.h1{
+    color:$azul
+}
+.col-lg-12{
+    h1{
+    color:$azul;
+    }
+    p{
+    color:$amarillo;   
+    }
+}
+
+@each $color in $negro, $amarillo, $white {
+    .#{$color}{
+        color:#{$color};
+    }
+}

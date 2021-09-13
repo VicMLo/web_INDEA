@@ -1,0 +1,160 @@
+@import "colores";
+@import "fuentes";
+@import "listas";
+
+$h1Desk: 3.125rem;
+$h1Mob: 2.1875rem;
+
+.container-Fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+}
+
+.titulo{
+    text-align:$center;
+    margin-top: 3.125rem;
+    color:$azul;
+}
+
+.gridPresentacion{
+    display: grid;
+    grid-template-areas: 
+    "gridPresentacion__img gridPresentacion__texto";
+    grid-template-rows: auto;
+    grid-template-columns: 40% 60%;
+    height: auto;
+    &__img{
+        margin-left: 15rem;
+        height: 18.75rem;
+        padding-bottom: 3.125rem;
+        padding-top: 0.9375rem;
+    }
+    &__texto{
+        padding-top: 2.1875rem;
+        padding-right: 9.375rem;
+        margin-right: 3.125rem; 
+        word-spacing: 0.0625rem;
+        text-align: $justify;
+    }
+}
+.gridPresentacion__img{grid-area: gridPresentacion__img;}
+.gridPresentacion__texto{grid-area: gridPresentacion__texto;}
+/*Inicio Sección Metodo*/
+div.metodo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*Inicio Sección Método*/
+.gridMetodo{
+    margin-top: 0.75rem;
+    background-color: $azul;
+    padding-top: 0.6rem;
+    &__titulo{
+        text-align:$center;
+        word-spacing: 0.13rem;
+        letter-spacing: 0.03rem;
+        font-size: 1.5625rem;
+        margin-top: 3.13rem;
+        padding-top: 0.63rem;
+        padding-bottom: 1.88rem;
+        color:$white;
+    }
+    &__lista{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        margin-left: 7.5rem;
+        margin-bottom: 3.125rem;
+        margin-top: 2.2rem;
+        padding-bottom: 3.125rem;
+        color:$white;
+        list-style: $none;
+    }
+    &__img{
+        font-weight: blod;
+    }
+    &__texto{
+        font-size: 1.25rem;
+        margin-top: 0.625rem;
+    }
+}
+/*Inicio Sección Equipo*/
+.nuestroEquipo__titulo{
+    text-align: center;
+    margin-top: 6.25rem;
+    font-size: 1.5625rem;
+    color: $azul;
+}
+.gridEquipo{
+    height: auto;    
+    &__lista{
+        display: grid;
+        grid-template-areas:
+        "gridEquipo__img1 gridEquipo__img2 gridEquipo__img3 gridEquipo__img4"
+        "gridEquipo__miembros1 gridEquipo__miembros2 gridEquipo__miembros3 gridEquipo__miembros4";
+        grid-template-columns:25% 25% 25% 25%;
+        grid-template-rows: auto auto;
+        margin-top: 3.125rem;
+        font-size: 1.125rem;
+    }
+    &__miembros{
+        font-size: 0.9375rem;
+        color: $azul;
+        margin-top: 0.9375rem;
+    }
+}
+.gridEquipo__img1{grid-area: gridEquipo__img1;}
+.gridEquipo__img2{grid-area: gridEquipo__img2;}
+.gridEquipo__img3{grid-area: gridEquipo__img3;}
+.gridEquipo__img4{grid-area: gridEquipo__img4;}
+.gridEquipo__miembros1{grid-area: gridEquipo__miembros1}
+.gridEquipo__miembros2{grid-area: gridEquipo__miembros2}
+.gridEquipo__miembros3{grid-area: gridEquipo__miembros3}
+.gridEquipo__miembros4{grid-area: gridEquipo__miembros4}  
+
+/*INICIO-METODO CALIDAD*/
+svg.bd-placeholder-img.rounded-circle{
+    margin-bottom: 20px;
+}
+section.container.metodo{
+    background-color: #285885;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1.metodo{
+    color: whitesmoke;
+}
+div.col-md-7.Presentacion{
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.lead{
+    font-size: 18px;
+}
+h5.metodo__texto{
+    color: whitesmoke;
+}
+
+/*CSS INTERVENCIONES*/
+div.intervencionesCalidad{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a {
+    color: whitesmoke !important;
+}
+div.col-sm li{
+    list-style: none;
+}
+
+.caja{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}

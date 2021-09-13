@@ -1,0 +1,30 @@
+$pDesktop:20px;
+$right:right;
+$left:left;
+$center:center;
+$justify:justify;
+
+.col-lg-12{
+    p{
+        font-size: $pDesktop;
+        font-weight:bold;
+    }
+}
+
+$vista:desktop;
+
+/*FUENTES BODY*/
+body{
+    @if $vista == desktop {
+        @media only screen and (min-width: 1024px){
+        h1{
+            font-size: 28px;
+            text-align: center;
+        }    
+        }
+        }@else if $vista == mobile {
+            h1{font-size: 1.25rem;}
+            }@else{
+                h1{font-size: 2.5rem;}
+        }
+}

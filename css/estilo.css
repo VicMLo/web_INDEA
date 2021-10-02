@@ -189,7 +189,6 @@ h1.metodo {
   color: whitesmoke; }
 
 div.col-md-7.Presentacion {
-  width: 600px;
   margin-bottom: 40px; }
 
 .lead {
@@ -230,3 +229,88 @@ a.nav-link {
 
 div.blog-spot {
   text-align: left; }
+
+/*ESTILO RESPONSIVE*/
+@media screen and (min-width: 768px) {
+  #tituloPresentacion {
+    text-align: left;
+    margin-right: 20px;
+    margin-right: 40px; }
+  #textoPresentacion {
+    text-align: left;
+    margin-right: 40px; }
+  #textoEquipo {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px; }
+  #tituloEquipo {
+    color: #285885;
+    margin-top: 50px;
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 767px) {
+  #imgPresentacion {
+    width: 40%;
+    margin-top: 0px;
+    margin-bottom: 50px; }
+  #tituloPresentacion {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px; }
+  #textoPresentacion {
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px; }
+  #item_1 {
+    margin-top: 50px; }
+  #item_2 {
+    margin-top: 50px; }
+  #item_3 {
+    margin-top: 50px; }
+  #textoEquipo {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px; }
+  #tituloEquipo {
+    color: #285885;
+    margin-top: 50px;
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 480px) {
+  #imgPresentacion {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 50px; }
+  #tituloPresentacion {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px; }
+  #textoPresentacion {
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px; }
+  #item_1 {
+    margin-top: 20px; }
+  #item_2 {
+    margin-top: 50px; }
+  #item_3 {
+    margin-top: 50px; }
+  #textoEquipo {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px; }
+  #tituloEquipo {
+    color: #285885;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 30px; } }

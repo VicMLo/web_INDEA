@@ -23,7 +23,7 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900" rel="stylesheet">
     <!-- CSS nativo -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link href="css/estilo.css" rel="stylesheet">
 
 
     <style>
@@ -110,7 +110,6 @@
     <!-- Fin Carousel -->
     <!-- Inicio Sección Presentación -->
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
   <main role="main">
@@ -118,11 +117,11 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-5" style="padding-left: 70px; margin-top: 20px">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto d-flex justify-content-end" width="290" height="290" src="Assets/Images/circuloPersonas340x340.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/></img>
+          <img id= imgPresentacion class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto d-flex justify-content-end" width="290" height="290" src="Assets/Images/circuloPersonas340x340.jpg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/></img>
         </div>
         <div class="col-md-7 Presentacion">
-          <h3 class="featurette-heading" style="text-align: left; margin-right: 20px;">PRESENTACIÓN</h3>
-          <p class="lead" style="text-align: left;">El Grupo de Intervención en Dificultades Específicas de Aprendizaje (Grupo INDEA) es un equipo multidisciplinar cuyo objetivo es la intervención e investigación de las dificultades de aprendizaje relacionadas con la lectura (dislexia), el cálculo (discalculia), la escritura (disgrafía/disortografía), el lenguaje (TEL/TDL), los trastornos del habla (TSH), el Trastorno por Déficit de Atención e Hiperactividad (TDAH), entre otros. Este equipo desarrolla su labor en sus dos sedes de Murcia y Molina de Segura, lugares a los que las familias pueden acudir para recibir atención profesional.
+          <h3 id= tituloPresentacion class="featurette-heading">PRESENTACIÓN</h3>
+          <p id= textoPresentacion class="lead">El Grupo de Intervención en Dificultades Específicas de Aprendizaje (Grupo INDEA) es un equipo multidisciplinar cuyo objetivo es la intervención e investigación de las dificultades de aprendizaje relacionadas con la lectura (dislexia), el cálculo (discalculia), la escritura (disgrafía/disortografía), el lenguaje (TEL/TDL), los trastornos del habla (TSH), el Trastorno por Déficit de Atención e Hiperactividad (TDAH), entre otros. Este equipo desarrolla su labor en sus dos sedes de Murcia y Molina de Segura, lugares a los que las familias pueden acudir para recibir atención profesional.
         </div>
 
       </div>
@@ -135,7 +134,7 @@
       <h1 class="metodo">METODO DE TRABAJO</h1>
       <!-- Three columns of text below the carousel -->
       <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
-        <div class="col-lg-4">
+        <div  id=item_1 class="col-lg-4">
           <img src="Assets/Images/listconBordeamplio.gif" alt="icono estudio y análisis" class="bd-placeholder-img rounded-circle" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style= "margin-bottom: 20px;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
           <!-- <svg class="bd-placeholder-img rounded-circle" width="180" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>          -->
           <h5 class="metodo__texto texto-->tamaño">Estudio, análisis y monitorización</h5>
@@ -143,14 +142,14 @@
           <!-- 1. Quitar la función textual de la siguiente linea-->
           <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div id=item_2 class="col-lg-4">
           <img src="Assets/Images/pngwingAma.gif" alt="icono decisiones con datos" class="bd-placeholder-img rounded-circle" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style= "margin-bottom: 20px;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
           <h5 class="metodo__texto">Decisiones en base a los datos</h5>
           <!-- HABILITAR ESTA FUNCIÓN PARA BOTONES DE *MÁS INFO*  -->
           <!-- 1. Quitar la función textual de la siguiente linea-->
           <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div id=item_3 class="col-lg-4">
           <img src="Assets/Images/check.gif" alt="icono eficacia y satisfacción" class="bd-placeholder-img rounded-circle" width="180" height="180" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false" style= "margin-bottom: 20px;"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
           <h5 class="metodo__texto">Eficacia y satisfacción</h5>
           <!-- HABILITAR ESTA FUNCIÓN PARA BOTONES DE *MÁS INFO*  -->
@@ -166,8 +165,8 @@
   <main role="main">
     <div class="album py-5 bg-light">
       <div class="container">
-        <h1 class="metodo" style="color: #285885; margin-top: 50px; margin-bottom: 15px;">NUESTROS PROFESIONALES</h1>
-        <p style="margin-top: 30px; padding-bottom:30px; text-align: center; margin-left: 220px; margin-right: 220px;">En Grupo INDEA confluyen profesionales de ámbitos como la psicología, la logopedia o la educación. <br> Dicha convergencia es necesaria para el abordaje de las dificultades de aprendizaje, puesto que este se nutre de todos estos campos.</p>
+        <h1 id=tituloEquipo class="metodo" style="color: #285885;">NUESTROS PROFESIONALES</h1>
+        <p id= textoEquipo>En Grupo INDEA confluyen profesionales de ámbitos como la psicología, la logopedia o la educación. <br> Dicha convergencia es necesaria para el abordaje de las dificultades de aprendizaje, puesto que este se nutre de todos estos campos.</p>
         <div class="row">
           <div class="col-md-3">
             <div class="card mb-3 shadow-sm">

@@ -21,6 +21,22 @@
         margin-top: 50px; 
         margin-bottom: 15px;
     }
+    #tituloVision{
+        margin-top: 20px; 
+        margin-bottom: 10px;
+    }
+    #parrafoVision{
+        text-align: center;
+    }
+    #tituloPaginaExcelencia{
+        margin-top: 80px; 
+        margin-bottom: 10px;
+    }
+    #parrafoServicios{
+        margin-left: 280px; 
+        margin-right: 280px; 
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -61,6 +77,19 @@
         color: #285885; 
         margin-top: 50px; 
         margin-bottom: 15px;
+    }
+    #parrafoVision{
+        margin-left: 100px; 
+        margin-right: 100px; 
+        text-align: center;
+    }
+    #intervencion_2{
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+    #intervencion_3{
+        margin-top: 40px;
+        margin-bottom: 20px
     }
 }
 
@@ -105,6 +134,19 @@
         margin-top: 50px; 
         margin-bottom: 15px;
         font-size: 30px;
+    }
+    #parrafoVision{
+        margin-left: 10px; 
+        margin-right: 10px; 
+        text-align: center;
+    }
+    #intervencion_2{
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+    #intervencion_3{
+        margin-top: 40px;
+        margin-bottom: 20px
     }
 }
 
